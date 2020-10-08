@@ -1,4 +1,94 @@
 /* *********************************** */
 /* *** Estilos SOLO para index.html *** */
 /* *********************************** */
+body{
+    
+}
 
+/*****empezamos la zona header*******/
+
+
+.container{
+    display: grid;
+    grid-template-columns: 10% 1fr 10%;
+}
+
+.body_header{
+    display: grid;
+    grid-template-columns: 20% 1fr 20%;
+
+}
+
+.header_nav_home .header_nav_company .header_nav_safety .header_nav_help{
+    
+    
+}
+.header_Logo{
+    display: flex;
+    justify-content: center;
+}
+
+.header_nav{
+    display: flex;
+    justify-content: space-evenly;
+    align-self: center;
+
+}
+
+.header_joinnow{
+    display: flex;
+    justify-content: center;
+    align-self: center;
+}
+
+/* *******empezamos la zona main******* */
+
+
+.body_main{
+    display: grid;
+    grid-template-columns: 1fr 1fr 0.25fr;
+    grid-template-rows: 100px 600px 100px 500px;
+}
+
+
+.body_imagen{
+    
+    grid-column: 1/2;
+    grid-row: 2/5;
+    background-image: url(../img/tablet/imagenexamen@2x.jpg) ;
+    
+}
+
+.body_main_section{
+    grid-column: 2/3;
+    grid-row: 2/3;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: right;
+    align-self: flex-end;
+    
+   
+   
+}
+.body_main_section_h1{
+    font-size: 115px;
+    margin: 0px;
+    color: rgb(1, 1, 236);
+
+}
+.body_main_buttons{
+    grid-column: 2/3;
+    grid-row: 3/4;
+    text-align: right;
+}
+
+.scroll{
+    grid-column: 2/3;
+    grid-row: 4/5;
+    align-self: center;
+    text-align:right;
+}
+
+
+   
