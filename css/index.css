@@ -89,11 +89,12 @@ body{
 
 .scroll{
     display: flex;
+    flex-direction: column ;
     justify-content: center;
-    align-self: center;
+    text-align: right;
     grid-column: 2/3;
     grid-row: 4/5;
-    text-align:right;
+    
 }
 
 
